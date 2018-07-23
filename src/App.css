@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One|Montserrat");
+
+/* font-family: "Carter One", cursive; */
+body {
+  width: 100%;
+  height: 100%;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: stretch;
+  height: 100%;
+  width: 100%;
+  color: red;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header,
+.footer {
+  font-family: "Carter One", cursive;
+  width: 100%;
+  background-color: black;
+  color: #9ef;
+  padding: 5px;
+
+  text-align: center;
+}
+
+.footer {
+  /* position: absolute;
+  bottom: 0; */
+}
+.body {
+  display: flex;
+  width: 100%;
+  padding: 50px;
+  justify-content: center;
+  align-items: stretch;
+  align-content: space-around;
+  height: 100%;
+  min-height: 600px;
+  background-color: #222;
+}
+
+.editSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  min-height: 50%;
+  border-radius: 10px 0px 0px 10px;
+  border: solid black 2px;
+  border-right: 0px;
+}
+
+.editorTop {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.editorTop,
+.previewTop {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+
+  margin-bottom: 5px;
+  font-family: "Carter One", cursive;
+  color: white;
+  background-color: rgb(104, 90, 102);
+}
+
+.editorTop h1,
+.previewTop h1 {
+  margin: 0px;
+}
+.previewTop {
+  margin-top: 0px;
+  border-radius: 0px 10px 0px 0px;
+}
+#editor {
+  width: 90%;
+  max-width: 95%;
+  height: 500px;
+  font-size: 1em;
+  background-color: #9ef;
+}
+
+.button {
+  /* margin-bottom: 10px; */
+
+  width: 20%;
+  border: solid black 2px;
+  border-radius: 5px;
+  font-family: "Carter One", cursive;
+  padding: 3px 10px;
+}
+
+code {
+  background-color: #222;
+}
+#preview {
+  padding: 0px 20px;
+}
+.previewSide {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  border: solid black 2px;
+  min-height: 50%;
+  font-size: 1.2em;
+  background-color: #999;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+  border-left: 0px;
+}
+
+.previewSide a {
+  color: #99eeff;
+}
+
+.markdownJSLink img {
+  width: 100px;
+  height: 100px;
+  object-fit: fill;
+  overflow: hidden;
+  margin: 0px;
+}
+
+.markdownJSLink {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+.footer i {
+  font-size: 2em;
+  margin: 0px 10px;
+  color: #9ef;
+}
+
+.authorLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
