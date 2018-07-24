@@ -27,10 +27,6 @@ body {
   text-align: center;
 }
 
-.footer {
-  /* position: absolute;
-  bottom: 0; */
-}
 .body {
   display: flex;
   width: 100%;

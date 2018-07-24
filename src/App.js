@@ -37,6 +37,7 @@ class App extends Component {
 
   onChange(e) {
     const markdown = marked(e.target.value, { renderer });
+    console.log(markdown);
     this.setState({ text: e.target.value, previewText: markdown });
 
     autoExpand();
